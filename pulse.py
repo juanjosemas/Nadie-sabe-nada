@@ -31,6 +31,7 @@ YOUTUBE_CHANNEL_ID_6 = "PLMuFXpsA8v_ytmXR_brQMPvUjwt1CvOyz"
 YOUTUBE_CHANNEL_ID_7 = "PLMuFXpsA8v_ynxx9rD4f57YpX7uiGfIJS"
 YOUTUBE_CHANNEL_ID_8 = "PL-o37YO_uwcLeIm4xJZtTL7b7OXVpVh8x"
 YOUTUBE_CHANNEL_ID_9 = "PLBF29177C5D2545EF"
+YOUTUBE_CHANNEL_ID_10 = "PLMuFXpsA8v_yvx3DsfUA8e9KIqqYtPDIK"
                       
 # Entry point
 def run():
@@ -99,8 +100,17 @@ def main_list(params):
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://i.imgur.com/GMgZMnn.jpg",
         folder=True )
-
-    plugintools.add_item( 
+		
+	plugintools.add_item( 
+        #action="", 
+        title="Nadie sabe nada Temporada 8",
+        url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_8+"/",
+        thumbnail="https://i.imgur.com/GMgZMnn.jpg",
+        folder=True )	
+		
+		
+		
+	plugintools.add_item( 
         #action="", 
         title="Chris Brown",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_8+"/",
