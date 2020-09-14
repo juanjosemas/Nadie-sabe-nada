@@ -101,16 +101,14 @@ def main_list(params):
         thumbnail="https://i.imgur.com/GMgZMnn.jpg",
         folder=True )
 		
-	plugintools.add_item( 
+    plugintools.add_item( 
         #action="", 
         title="Nadie sabe nada Temporada 8",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_8+"/",
         thumbnail="https://i.imgur.com/GMgZMnn.jpg",
         folder=True )	
 		
-		
-		
-	plugintools.add_item( 
+    plugintools.add_item( 
         #action="", 
         title="Chris Brown",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_8+"/",
